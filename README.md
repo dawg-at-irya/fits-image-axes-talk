@@ -14,10 +14,13 @@ In either case, I will show how this can be easily achieved either in pure matpl
 or by using libraries from Astropy. 
 
 ## Resumen
+Cómo mostrar una imagen con ejes científicamente significativos en Python
 
-Cuando usamos la función `imshow()` en Python matplotlib para mostrar una imagen, los ejes se muestran en unidades de píxeles por defecto.  
-Sin embargo, a menudo queremos mostrar la imagen usando otras unidades, como la longitud en parsecs o en coordenadas celestes.  
-En general, estas otras unidades se denominan _world coordinates_ (coordenadas mundiales).  
-A veces, la transformación de píxeles a coordenadas mundiales se proporciona en la cabecera de un archivo FITS, 
-pero ese no es siempre el caso.  
+Cuando usamos la función `imshow()` en Python matplotlib para mostrar una imagen, 
+los ejes se muestran en unidades de píxeles por defecto.
+Sin embargo, a menudo queremos mostrar la imagen usando otras unidades, 
+como la longitud en parsecs o en coordenadas celestes.
+En general, estas otras unidades se denominan _world coordinates_ (coordenadas mundiales).
+A veces, la transformación de píxeles a coordenadas mundiales se proporciona en la cabecera de un archivo FITS,
+pero ese no es siempre el caso.
 En cualquier caso, mostraré cómo se puede lograr esto fácilmente en matplotlib puro o usando bibliotecas de Astropy.
