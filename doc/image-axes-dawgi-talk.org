@@ -1,0 +1,8 @@
+Plan of action for talk on displaying images with WCS info in matplotlib
+
+* Where to keep the data
+- I had thought of zenodo but that is overkill and inflexible
+  - I have to decide ahead of time what all the files are before uploading them
+- Current plan is to put the data in this repo, and then use guthub raw links to load them into Colab notebook
+  
+* Talk outline
