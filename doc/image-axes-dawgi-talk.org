@@ -5,4 +5,13 @@ Plan of action for talk on displaying images with WCS info in matplotlib
   - I have to decide ahead of time what all the files are before uploading them
 - Current plan is to put the data in this repo, and then use guthub raw links to load them into Colab notebook
   - https://github.com/dawg-at-irya/fits-image-axes-talk/raw/main/data/large-image-no-wcs.fits
-* Talk outline
+* Questions about talk structure
+- Should I include WCS from FITS file first, or made by hand?
+- 
+- 
+** Further topics
+- Plotting points on the image
+- Plotting contours on top of the image
+  - Including using a different WCS
+- Rotated pixel axes
+- Non-linear transformations
