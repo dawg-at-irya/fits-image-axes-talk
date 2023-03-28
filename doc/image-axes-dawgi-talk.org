@@ -1,5 +1,17 @@
 Plan of action for talk on displaying images with WCS info in matplotlib
 
+* Tidying up the repo
+- [X] Export the notebook to markdown
+- [ ] Add it to the README
+
+  
+** Export the notebook to markdown
+#+begin_src bash :dir ../notebooks
+jupyter nbconvert --to markdown dawgi_fits_image.ipynb
+#+end_src
+
+#+RESULTS:
+
 * Where to keep the data
 - I had thought of zenodo but that is overkill and inflexible
   - I have to decide ahead of time what all the files are before uploading them
