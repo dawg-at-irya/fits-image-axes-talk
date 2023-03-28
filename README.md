@@ -25,8 +25,8 @@ A veces, la transformación de píxeles a coordenadas mundiales se proporciona e
 pero ese no es siempre el caso.
 En cualquier caso, mostraré cómo se puede lograr esto fácilmente en matplotlib puro o usando bibliotecas de Astropy.
 
-## Jupyter notebook of the presentation
-<./dawgi_fits_image.ipynb>
+## [Jupyter notebook of the presentation](./dawgi_fits_image.ipynb)
+
 
 ## Setup
 Import the necessary libraries
